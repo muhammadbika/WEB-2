@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 94, "column": 0}, "map": {"version":3,"sources":["file:///D:/PEMROGRAMAN%20WEB/PWII-IF24DX/crud/app/barang/view/page.tsx"],"sourcesContent":["// 'use client';\r\nimport axios from 'axios';\r\n// import {useEffect} from 'react';\r\n\r\nexport default function ViewPage() {\r\n    //buat arrow function untuk menampilkan data barang dari API\r\nconst getBarang = async  () => {\r\n    const response = await axios.get(\r\n    \"http://localhost:3000/api/barang\"\r\n    );\r\n    console.log(response.data);\r\n};\r\n    // useEffect(() => {\r\n        //panggil fungsi barang\r\n        getBarang();\r\n    // });\r\n    \r\n    return (\r\n        <div>Halaman Lihat Barang</div>\r\n    )\r\n}\r\n\r\n"],"names":["ViewPage","getBarang","response","get","console","log","data"],"mappings":";;;;;AAAA,gBAAgB;AAChB;;;AAGe,SAASA;IACpB,4DAA4D;IAChE,MAAMC,YAAY;QACd,MAAMC,WAAW,MAAM,gJAAK,CAACC,GAAG,CAChC;QAEAC,QAAQC,GAAG,CAACH,SAASI,IAAI;IAC7B;IACI,oBAAoB;IAChB,uBAAuB;IACvBL;IACJ,MAAM;IAEN,qBACI,8OAAC;kBAAI;;;;;;AAEb"}},
+    {"offset": {"line": 132, "column": 0}, "map": {"version":3,"sources":["file:///D:/PEMROGRAMAN%20WEB/PWII-IF24DX/crud/app/favicon.ico.mjs%20(structured%20image%20object)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 48, height: 48 }\n"],"names":["src","width","height"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,mIAAG;IAAEC,OAAO;IAAIC,QAAQ;AAAG"}}]
+}
